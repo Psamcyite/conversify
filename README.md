@@ -1,0 +1,2 @@
+# Craptalk
+Dfgg
