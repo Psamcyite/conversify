@@ -1,8 +1,6 @@
 
 **Conversify**
 
-Conversify is a real-time chat application built with the MERN stack (MongoDB, Express.js, React.js, Node.js), featuring JWT (JSON Web Tokens) authentication and Socket.IO for seamless real-time communication.
-
 ### Features
 
 - **Real-time Chat**: Engage in real-time conversations with other users.
