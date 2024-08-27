@@ -1,95 +1,50 @@
+# Welcome to your Expo app 👋
 
-**Conversify**
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-### Features
+## Get started
 
-- **Real-time Chat**: Engage in real-time conversations with other users.
-- **User Authentication**: Secure user authentication using JWT.
-- **Private Messaging**: Send private messages to individual users.
-- **Online Presence**: See when other users are online.
-- **Message History**: Access chat history for ongoing conversations.
-
-### Technologies Used
-
-- **MongoDB**: NoSQL database for storing user data and chat messages.
-- **Express.js**: Web application framework for Node.js used for building the server.
-- **React.js**: JavaScript library for building user interfaces.
-- **Node.js**: JavaScript runtime environment for running server-side code.
-- **JWT (JSON Web Tokens)**: Secure authentication mechanism.
-- **Socket.IO**: Real-time bidirectional event-based communication.
-
-### Prerequisites
-
-- Node.js installed on your machine
-- MongoDB installed locally or accessible via a MongoDB Atlas cluster
-- Git installed on your machine
-
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/Conversify.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd Conversify
-   ```
-
-3. Install server dependencies:
+1. Install dependencies
 
    ```bash
    npm install
    ```
 
-4. Navigate to the client directory:
+2. Start the app
 
    ```bash
-   cd client
+    npx expo start
    ```
 
-5. Install client dependencies:
+In the output, you'll find options to open the app in a
 
-   ```bash
-   npm install
-   ```
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-6. Navigate back to the project root:
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-   ```bash
-   cd ..
-   ```
+## Get a fresh project
 
-7. Create a `.env` file in the root directory and configure environment variables:
+When you're ready, run:
 
-   ```plaintext
-   PORT=5000
-   MONGODB_URI=mongodb://localhost:27017/conversify
-   JWT_SECRET=your-secret-key
-   ```
+```bash
+npm run reset-project
+```
 
-8. Run the development server:
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-   ```bash
-   npm run dev
-   ```
+## Learn more
 
-9. Navigate to `http://localhost:3000` in your web browser to access the application.
+To learn more about developing your project with Expo, look at the following resources:
 
-### Contributing
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-Contributions are welcome! Feel free to open an issue or submit a pull request.
+## Join the community
 
-### License
+Join our community of developers creating universal apps.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-### Acknowledgements
-
-- Inspired by [MERN Stack Tutorial with Socket.IO](https://www.youtube.com/watch?v=KlcEYomuD4E) by JavaScript Mastery.
-
-### Contact
-
-For inquiries, please contact [psamcyitedev@gmail.com](mailto:psamcyitedev@gmail.com).
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
